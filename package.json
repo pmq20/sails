@@ -40,7 +40,7 @@
     "cookie-signature": "1.0.6",
     "ejs": "^2.3.3",
     "ejs-locals": "~1.0.2",
-    "express": "3.20.2",
+    "express": "4.0.0",
     "express-handlebars": "~2.0.0",
     "fs-extra": "~0.18.0",
     "glob": "~5.0.3",
@@ -74,7 +74,7 @@
     "sails-stringfile": "~0.3.2",
     "sails-util": "~0.10.6",
     "semver": "~4.3.3",
-    "skipper": "~0.5.5",
+    "skipper": "~0.6.2",
     "uid-safe": "^1.1.0",
     "walk": "^2.3.9",
     "waterline": "~0.10.26"

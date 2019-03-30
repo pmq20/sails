@@ -1,0 +1,53 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sails-hook-sockets > socket.io > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io-client > engine.io-client > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-client > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > engine.io > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io-client > debug:
+        patched: '2019-03-30T06:10:08.528Z'
+  'npm:lodash:20180130':
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2019-03-30T06:10:08.528Z'
+    - waterline > switchback > lodash:
+        patched: '2019-03-30T06:10:08.528Z'
+  'npm:ms:20151024':
+    - sails-hook-sockets > socket.io-client > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-client > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > engine.io > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-03-30T06:10:08.528Z'
+  'npm:negotiator:20160616':
+    - sails-hook-sockets > socket.io > engine.io > accepts > negotiator:
+        patched: '2019-03-30T06:10:08.528Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2019-03-30T06:10:08.528Z'
+  'npm:ws:20160920':
+    - sails-hook-sockets > socket.io > engine.io > ws:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io-client > engine.io-client > ws:
+        patched: '2019-03-30T06:10:08.528Z'
+    - sails-hook-sockets > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2019-03-30T06:10:08.528Z'

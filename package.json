@@ -69,7 +69,7 @@
     "reportback": "~0.1.8",
     "sails-build-dictionary": "~0.10.1",
     "sails-disk": "~0.10.7",
-    "sails-generate": "~0.12.3",
+    "sails-generate": "~1.16.8",
     "sails-hook-sockets": "pmq20/sails-hook-sockets#873c052",
     "sails-stringfile": "~0.3.2",
     "sails-util": "~0.10.6",
